@@ -1,39 +1,61 @@
 <!DOCTYPE html>
-<title>Cabineet.com</title>
+<title>CABINEET.COM</title>
 
-<header><a > <img src="logo.png" class="center" embed="https://cabineet.com/"></a>
-</header>
+<head>
 
-<link rel="icon" type="x-icon" href="icon.ico">
+  <style>
+      body {
+          background-image: url('BG2.png');
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-color: black;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: flex-start;
+      }
 
-<style> body{
-    background-image: url('BG2.png');
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-color: black;
-}
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width:40%;
-  
-}
+      header {
+          width: 100%;
+          text-align: center;
+      }
 
-.cabinet
-{
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 70%;
-  image-rendering: crisp-edges;
+      .logo {
+          width: 0%; 
+          display: block;
+          margin: 0 auto;
+      
+      }
 
-}
+      .grid-container {
+          display: grid;
+          grid-template-columns: repeat(2, 1fr); 
+          grid-template-rows: repeat(2, auto); 
+          gap: 0px;
+          width: 70%;
+          image-rendering: crisp-edges;
+          margin-top: 20px;
+      }
 
+      .grid-container img {
+          width: 100%;
+          height: auto;
+          display: block;
+      }
+  </style>
+</head>
+<body>
 
-</style>
+  <header>
+    <a href="https://cabineet.com/"><img src="logo.png"class="logo"></a>
+  </header>
 
-<img src="cabinet.png" class="cabinet">
+  <div class="grid-container">
+      <img src="006.png" class="image">
+      <img src="005.png" class="image">
+      <img src="003.png" class="image">
+      <img src="004.png" class="image">
+  </div>
 
-
-
+</body>
+</html>
