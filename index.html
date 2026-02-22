@@ -1,17 +1,32 @@
 <!DOCTYPE html>
+
+<!-- if you take a peek in here you'll realize I'm a dirty dirty vibecoder! -->
+
+
+
+
 <title>CABINEET.COM</title>
 
 
-<header class="logo">
-    <a href="https://cabineet.com/"><img src="logoo.png" alt="CABINEET.COM"></a>
-  </header>
- <style>
+<header>
+    <a class="logo" href="https://cabineet.com/"><img src="logoo.png" alt="CABINEET.COM"></a>
+    
+  <br>
 
-
+<div class="UI">
+<a href="https://cabineet.com/art"> ART</a> 
+<a href="https://cabineet.com/3D-stuff"> MODELS</a> 
+<a href="https://cabineet.com/misc"> MISC</a> 
+<a href="https://cabineet.com/about"> ABOUT</a>
+</div> 
+<style>
     .logo{
     
     text-align: center;
-       
+    image-rendering: optimizeQuality;
+    image-rendering: crisp-edges;
+    margin-top: 5px;
+  
 
     }
 
@@ -20,18 +35,75 @@
       text-align: center;
       background-image: url(background.png);
       background-repeat: repeat;
-    
+      font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+      text-decoration: none;
+      image-rendering: crisp-edges;
+
     }
 
     .body1{
 
-      margin-top: 15px;
+    
       text-align: center;
     }
 
+    .peek{
 
-  </style>
-<body>
+      position: fixed; bottom: 0%; right: 0px;
+      image-rendering: pixelated;
 
-</body>
+    }
+
+    .UI{
+      text-align: center;
+      font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+      color: white;
+      font-weight: bolder;
+      font-size: 35px;
+      padding: 5px;
+      word-spacing: 30px;
+      -webkit-text-stroke: #0055ff;
+    }
+
+    a:link{
+      color: white;
+      font-weight: bolder;
+      text-decoration: none;
+      text-shadow: #0055ff;
+      -webkit-text-stroke: #0055FF;
+      -webkit-text-stroke-width: 1.3px;
+    }
+    a:visited{
+      color: white;
+      font-weight: bolder;
+      text-decoration: none;
+      -webkit-text-stroke: #0055FF;
+      -webkit-text-stroke-width: 1.3px;
+    }
+    a:hover{
+      color: #CCE1FF;
+      font-weight: bolder;
+      -webkit-text-stroke: #0055FF;
+      -webkit-text-stroke-width: 1.3px;
+    }
+</style>
+
+
+  <link rel="icon" href="icon.png">
+
+
+</header>
+
+  <a href="https://cabineet.com/video-racer">
+    <img class = "peek" src="peak-transp.gif"> </a>
+
+    <body>
+       <p> <img src="cabinet.png"></p>
+    </body>
+   
+
+  
+
+
+
 </html>
